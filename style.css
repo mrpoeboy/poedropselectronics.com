@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-image: url('IMG_4084.jpeg');*/ /*remove it from comment*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.95; /* Adjust the opacity as needed */
+}
+
+header {
+    background-color: #063970; /* Red background with opacity */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+#hover {
+    color: red;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.laptop {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.laptop img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.laptop h2 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.laptop p {
+    font-size: 14px;
+    color: #666;
+}
+
+.laptop button {
+    background-color: #063970; /* Red button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.laptop button:hover {
+    background-color: #0be428; /* Light Green on hover */
+}
