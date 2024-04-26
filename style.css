@@ -1,14 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    /*background-image: url('IMG_4084.jpeg');*/ /*remove it from comment*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.95; /* Adjust the opacity as needed */
-}
-
 header {
+    font-family: Arial;
     background-color: #063970; /* Red background with opacity */
     color: #fff;
     text-align: center;
@@ -17,6 +8,16 @@ header {
 #hover {
     color: red;
 }
+body {
+    font-family: Arial,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('PoeDrops\ Electronics.jpg'); /* Replace 'your-transparent-image.png' with the URL of your transparent image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -62,4 +63,38 @@ header {
 
 .laptop button:hover {
     background-color: #0be428; /* Light Green on hover */
+}
+footer {
+    font-family: Arial;
+    background-color: #063970;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 5px;
+}
+.footer-content button {
+    color: #fff;
+    background-color: #0be428;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
