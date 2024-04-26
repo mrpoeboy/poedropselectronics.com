@@ -5,6 +5,10 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+header h1,h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 #hover {
     color: red;
 }
