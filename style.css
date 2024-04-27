@@ -1,131 +1,135 @@
-header {
-    font-family: Arial, sans-serif;
-    background-color: #063970; /* Dark blue background */
-    color: #fff; /* White text */
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header img {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add some space below the image */
-}
-
-header h1, header h3 {
-    margin: 10px; /* Shortened margin for consistency */
-}
-h3:hover {
-    color: red;
-}
+/* Global Styles */
 body {
-    font-family: Arial,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b0d2f7;
-}
-#accessories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+    transition: transform 0.3s ease; /* Add transition for smoother zoom effect */
 }
 
-#laptop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+/* Set initial zoom level */
+body {
+    zoom: 100%;
 }
 
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* Header Styles */
+header {
+    background-color: #063970;
+    color: #fff;
     padding: 20px;
-}
-
-#laptop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-}
-
-.laptop {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    max-width: 300px;
     text-align: center;
 }
 
-.laptop img {
-    max-width: 100%;
+/* Logo Styles */
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #042e4d;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
-.laptop h2 {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+nav ul li a:hover {
+    color: white;
+    background-color: #042e4d;
 }
 
+nav ul li a.active {
+    background-color: #0a4a6b;
+}
+/* Section Styles */
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Product Styles */
+.accessories,
+.laptop {
+    display: inline-block;
+    width: 300px;
+    height:max-content;
+    margin: 10px;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.accessories img,
+.laptop img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.accessories h2,
+.laptop h2,
+.accessories p,
 .laptop p {
-    font-size: 14px;
-    color: #666;
+    transition: transform 0.3s ease;
 }
 
-.laptop button {
+.accessories a button,
+.laptop a button {
     background-color: #063970;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 5px;
+    text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.laptop button:hover {
-    background-color: #0be428;
+.accessories a button:hover,
+.laptop a button:hover {
+    background-color: #08ce0ed1;
 }
-footer {
-    font-family: Arial;
+
+/* Footer Styles */
+.footer-content {
     background-color: #063970;
     color: #fff;
-    text-align: center;
     padding: 20px;
-}
-
-.footer-content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.footer-content p {
-    margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer-content ul {
-    list-style-type: none;
     padding: 0;
+    list-style-type: none;
 }
 
 .footer-content ul li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
-.footer-content button {
-    color: #fff;
-    background-color: #0be428;
-    border: none;
+
+.footer-content ul li a button {
+    color: #042e4d;
+    background-color: white;
+    text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+}
+
+.footer-content ul li a button:hover {
+    color: white;
+    background-color: #042e4d;
 }
