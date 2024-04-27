@@ -1,15 +1,24 @@
 header {
-    font-family: Arial;
-    background-color: #063970; /* Red background with opacity */
-    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: #063970; /* Dark blue background */
+    color: #fff; /* White text */
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-header h1,h3 {
-    margin-left: 10px;
-    margin-right: 10px;
+
+header img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some space below the image */
 }
-#hover {
+
+header h1, header h3 {
+    margin: 10px; /* Shortened margin for consistency */
+}
+h3:hover {
     color: red;
 }
 body {
