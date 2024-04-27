@@ -27,6 +27,19 @@ body {
     padding: 0;
     background-color: #b0d2f7;
 }
+#accessories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+#laptop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
 
 
 .container {
@@ -36,8 +49,15 @@ body {
     padding: 20px;
 }
 
+#laptop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
 .laptop {
-    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -63,7 +83,7 @@ body {
 }
 
 .laptop button {
-    background-color: #063970; /* Red button background */
+    background-color: #063970;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -73,7 +93,7 @@ body {
 }
 
 .laptop button:hover {
-    background-color: #0be428; /* Light Green on hover */
+    background-color: #0be428;
 }
 footer {
     font-family: Arial;
