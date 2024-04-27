@@ -116,24 +116,6 @@ section {
     text-align: center;
 }
 
-.footer-content ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-.footer-content ul li {
-    margin-bottom: 10px;
-}
-
-.footer-content ul li a button {
-    color: #042e4d;
-    background-color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.footer-content ul li a button:hover {
-    color: white;
-    background-color: #042e4d;
+.footer-content p {
+    margin: 0;
 }
