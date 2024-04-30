@@ -10,24 +10,26 @@
 </head>
 
 <body>
-    <header id="header">
-        <img src="PoeDrops Electronics.jpg" alt="PoeDrops Electronics Logo">
-        <h1>PRODUCTS CATALOG</h1>
-        <nav>
-            <ul>
-                <li><a href="#laptop-accessories"><button>Accessories</button></a></li>
-                <li><a href="#HP-laptops"><button>HP Laptops</button></a></li>
-                <li><a href="#DELL-laptops"><button>Dell Laptops</button></a></li>
-                <li><a href="#MACBOOK-laptops"><button>Apple Products</button></a></li>
-                <li><a href="#OTHER-laptops"><button>Other Brands</button></a></li>
-                <li><a href="#footer"><button>Contact Us</button></a></li>
-            </ul>
-        </nav>
-    </header>
+<header id="header">
+    <img src="PoeDrops Electronics.jpg" alt="PoeDrops Electronics Logo">
+    <h1>PRODUCTS CATALOG</h1>
+    <p id="date-time"></p> <!-- This paragraph will hold the date and time -->
+    <nav>
+        <ul>
+            <li><a href="#laptop-accessories"><button>Accessories</button></a></li>
+            <li><a href="#HP-laptops"><button>HP</button></a></li>
+            <li><a href="#DELL-laptops"><button>DELL</button></a></li>
+            <li><a href="#MACBOOK-laptops"><button>APPLE</button></a></li>
+            <li><a href="#OTHER-laptops"><button>Other Brands</button></a></li>
+            <li><a href="#footer"><button>Contact Us</button></a></li>
+        </ul>
+    </nav>
+</header>
+
 
     <body>
         <section id="laptop-accessories">
-            <h2>ACCESSORIES</h2>
+            <h2>ACCESSORIES IN STOCK</h2>
 
             <div class="accessories">
                 <img src="Laptop Bag Sleeve.jpg" alt="Laptop Bags">
@@ -51,6 +53,21 @@
                 <p>Price: 120 cedis</p>
                 <a href="https://wa.me/233554668659?text=Please%20I%20want%20to%20make%20enquiries%20for%20this%20product%3B%0A%0ALaptop%20Stand%0APrice%3A%20120%20cedis"
                     target="_blank"><button>DM TO PURCHASE</button></a>
+            </div>
+            <div class="accessories">
+                <img src="4G MiFi.jpg" alt="For Nokorw">
+                <h2>MTN PORTABLE MIFI (FOR ALL NETWORKS)</h2>
+                <p>
+                    Type: 4G Router <br>
+                    Frequency: LTE TDD/LTE FDD/UMTS Band/GSM <br>
+                    Maximum downlink rate: 150Mbps <br>
+                    Maximum uplink rate: 50Mbps <br>
+                    Interface: Standard USIM card port, MICRO-USB interface <br>
+                    Working Time: Up to 6-8 Hours <br>
+                    Storage Functionality: SD Card Adapter support
+                </p>
+                <p>Price: 400 cedis</p>
+                <a href="https://wa.me/233554668659?text=Please%20I%20want%20to%20make%20enquiries%20for%20this%20product%3B%0A%0AMTN%20PORTABLE%20MIFI%20%28FOR%20ALL%20NETWORKS%29%0A%0AType%3A%204G%20Router%0AFrequency%3A%20LTE%20TDD%2FLTE%20FDD%2FUMTS%20Band%2FGSM%0AMaximum%20downlink%20rate%3A%20150Mbps%0AMaximum%20uplink%20rate%3A%2050Mbps%0AInterface%3A%20Standard%20USIM%20card%20port%2C%20MICRO-USB%20interface%0AWorking%20Time%3A%20Up%20to%206-8%20Hours%0AStorage%20Functionality%3A%20SD%20Card%20Adapter%20support%0A%0APrice%3A%20400%20cedis" target="_blank"><button>DM TO PURCHASE</button></a>
             </div>
             <div class="accessories">
                 <img src="Verizon Wireless Jetpack 8800L.jpg" alt="alt name">
@@ -111,7 +128,7 @@
         -->
         </section>
         <section id="HP-laptops">
-            <h2>HP LAPTOPS AVAILABLE</h2>
+            <h2>HP LAPTOPS IN STOCK</h2>
             <div class="laptop">
                 <img src="Hp probook 430 G6.jpg" alt="image name">
                 <h2>HP Probook 430 G6</h2>
@@ -228,7 +245,7 @@
         -->
         </section>
         <section id="DELL-laptops">
-            <h2>DELL LAPTOPS AVAILABLE</h2>
+            <h2>DELL LAPTOPS IN STOCK</h2>
             <div class="laptop">
                 <img src="DELL LATITUDE 7270.jpg" alt="DELL LATITUDE 7270">
                 <h2>DELL LATITUDE 7270</h2>
@@ -303,7 +320,7 @@
         -->
         </section>
         <section id="MACBOOK-laptops">
-            <h2>APPLE PRODUCTS AVAILABLE</h2>
+            <h2>APPLE PRODUCTS IN STOCK</h2>
             <div class="laptop">
                 <img src="imac Intel core i5  2015 model.jpg" alt="imac">
                 <h2>iMac</h2>
@@ -435,7 +452,7 @@
         -->
         </section>
         <section id="OTHER-laptops">
-            <h2>OTHER BRAND LAPTOPS AVAILABLE</h2>
+            <h2>OTHER BRAND LAPTOPS IN STOCK</h2>
             <div class="laptop">
                 <img src="Asus.jpg" alt="Asus">
                 <h2>Brand New Asus</h2>
@@ -516,6 +533,26 @@
         
         -->
         </section>
+        <script>
+            // Function to update the date and time
+            function updateDateTime() {
+                // Get the current date and time
+                var dateTime = new Date();
+                
+                // Format the date and time nicely
+                var formattedDateTime = dateTime.toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true });
+                
+                // Display the formatted date and time in the paragraph
+                document.getElementById("date-time").textContent = formattedDateTime;
+            }
+            
+            // Call the function initially to display the current date and time
+            updateDateTime();
+            
+            // Update the date and time every second
+            setInterval(updateDateTime, 1000);
+        </script>
+        
     </body>
     <h3>DM ME WITH YOUR LAPTOP SPECS YOU IF NOT FOUND ON THE SITE.... <a href="https://wa.me/233554668659" target="_blank"><button style="background-color: #063970; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" onmouseover="this.style.backgroundColor='#2ecc71'" onmouseout="this.style.backgroundColor='#063970'">TAP ON THIS</button>
 </a> </h3>
