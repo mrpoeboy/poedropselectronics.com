@@ -1,2 +1,2 @@
 # poedropselectronics.github.io
-my catalogue website
+this is my business website
