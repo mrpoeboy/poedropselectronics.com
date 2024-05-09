@@ -24,6 +24,10 @@ header img {
     width: 100px;
     height: auto;
 }
+#date-time {
+    font-size: 24px;
+    margin-top: 10px;
+}
 
 /* Navigation Styles */
 nav ul {
@@ -118,4 +122,12 @@ section {
 
 .footer-content p {
     margin: 0;
+}
+
+#footer a{
+    color: white;
+}
+#footer a:hover{
+    color: red;
+    background-color: white;
 }
