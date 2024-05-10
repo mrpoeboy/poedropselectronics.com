@@ -13,7 +13,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #063970;
+    background-color: #0b2dae;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li button {
-    color: #042e4d;
+    color: #0b2dae;
     background-color: white;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -57,7 +57,7 @@ nav ul li button {
 
 nav ul li button:hover {
     color: white;
-    background-color: #042e4d;
+    background-color: #0b2dae;
 }
 
 /* Section Styles */
@@ -98,7 +98,7 @@ section {
 
 .accessories a button,
 .laptop a button {
-    background-color: #063970;
+    background-color: #0b2dae;
     color: #fff;
     border: none;
     padding: 8px 20px;
@@ -114,7 +114,7 @@ section {
 
 /* Footer Styles */
 .footer-content {
-    background-color: #063970;
+    background-color: #0b2dae;
     color: #fff;
     padding: 20px;
     text-align: center;
