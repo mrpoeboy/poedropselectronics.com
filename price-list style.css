@@ -1,0 +1,103 @@
+/* Header Styles */
+header {
+    background-color: #0b2dae;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Logo Styles */
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    /* Reset padding */
+    margin: 20px 0;
+    /* Add margin to the ul */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li button {
+    color: #0b2dae;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    color: white;
+    background-color: #0b2dae;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #0b2dae;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+table {
+    margin: 20px;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #0b2dae;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+/* Footer Styles */
+.footer-content {
+    background-color: #0b2dae;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: red;
+    background-color: white;
+}
