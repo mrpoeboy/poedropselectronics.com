@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    transition: transform 0.3s ease; /* Add transition for smoother zoom effect */
+    transition: transform 0.3s ease;
+    /* Add transition for smoother zoom effect */
 }
 
 /* Set initial zoom level */
@@ -24,16 +25,14 @@ header img {
     width: 100px;
     height: auto;
 }
-#date-time {
-    font-size: 24px;
-    margin-top: 10px;
-}
 
 /* Navigation Styles */
 nav ul {
     list-style-type: none;
-    padding: 0; /* Reset padding */
-    margin: 20px 0; /* Add margin to the ul */
+    padding: 0;
+    /* Reset padding */
+    margin: 20px 0;
+    /* Add margin to the ul */
 }
 
 nav ul li {
@@ -73,7 +72,7 @@ section {
 .laptop {
     display: inline-block;
     width: 300px;
-    height:max-content;
+    height: max-content;
     margin: 10px;
     vertical-align: top;
     text-align: center;
@@ -124,10 +123,11 @@ section {
     margin: 0;
 }
 
-#footer a{
+#footer a {
     color: white;
 }
-#footer a:hover{
+
+#footer a:hover {
     color: red;
     background-color: white;
 }
